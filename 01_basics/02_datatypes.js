@@ -3,7 +3,6 @@
 //alert(3 +3) /* alert is not defined because we are using node.js, not browser */
 
 
-
 console.log(3 
     + 
     3) // code readability should be high
@@ -16,8 +15,6 @@ let name = "Dileep"
 let age = 25
 let isLoggedIn = false 
 let state = "" /* it is not null */
-
-
 
 
 // number => 2 to power 53 (range)
