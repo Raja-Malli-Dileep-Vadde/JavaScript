@@ -99,5 +99,36 @@ console.log(str3)
 
 console.log( "1" + 2 )
 console.log( 1 + "2" )
+console.log( 1 + 2 + "2" )  /* => number + number + string = string */
+
+console.log( "1" + 2 + 2)   /* => string + number + number = string */
+
+console.log( ( 3 + 4 ) * 5 % 3 )
+
+
+console.log( +true )  /*  ( +true  => 0 )   */
+// console.log( true+ ) => 'error'
+
+console.log( +"" ) /*   ( +"" => 0 )   */
+
+let num1 , num2 , num3
+
+num1 = num2 = num3 = 2 + 2 /* not fine way to use */
+
+console.table([num1 ,num2 ,num3])
+
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
+++gameCounter
+console.log(gameCounter)
+
+ 
+
+
+
+
+
 
 
