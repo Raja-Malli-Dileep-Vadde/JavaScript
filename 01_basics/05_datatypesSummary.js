@@ -85,7 +85,7 @@ if (5 == 5){
     let let1 = 50
 }
 console.log(var1)
-console.log(let1)
+// console.log(let1)
 
 checkScope()
 // console.log(scopeVar,"after-function var")
@@ -102,3 +102,31 @@ checkScope()
 // printMyName()
 // console.log(a)
 
+
+// stack (primitive)  & heap (non primitive) 
+// stack it gives only copy of  the variable 
+// heap it gives the refrence (original value ) of the variable(object)(non primitive)
+
+let loginName = "dileep"
+console.log(loginName,"loginName before")
+let anotherName = loginName
+console.log(anotherName,"anotherName before")
+
+anotherName = "sanyogita"
+console.log(anotherName,"anotherName after")
+console.log(loginName,"loginName after")
+
+
+let myLoginDetails ={
+    Name:"sanyogita",
+    Password:"123456"
+}
+
+ let secLoginDetails = myLoginDetails
+ console.log(myLoginDetails,"myLoginDetails")
+ secLoginDetails.Name = "Raja Malli"
+ secLoginDetails.Password = "00000"
+
+
+ console.log(secLoginDetails,"secLoginDetails")
+ console.log(myLoginDetails,"myLoginDetails")
